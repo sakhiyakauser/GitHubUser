@@ -1,0 +1,68 @@
+.app{
+  background-color: rgb(253, 249, 249);
+ 
+}
+.appusers{
+  width:80%;
+}
+ .header{
+  justify-content: center;
+  align-items: center;
+ text-align: center;
+ background-color: rgb(63, 62, 62);
+
+ color:rgb(247, 223, 130);
+
+ display:flex;
+ position: sticky;
+ 
+ 
+
+ z-index:1;
+ height:55px;
+}.h1g{
+margin-left: 5px;
+padding-top: 10px;
+
+}
+.icon{
+  padding-top: 7px;
+}
+@media (max-width: 990px) {
+  .app {
+  width:100%;
+margin-left: auto;
+margin-right: auto;
+  }
+ .icon{
+  margin: auto;
+
+ }
+
+ .h1g{
+  margin: auto;
+  
+
+ }
+
+}
+@media (max-width: 990px) {
+  .header {
+  width:100%;
+margin-left: auto;
+margin-right: auto;
+
+  }
+  .h1g{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: -9px;
+   }
+  .icon{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+  padding-left:15px;
+  }
+}

@@ -1,0 +1,126 @@
+.body{
+ width:50%;
+ height:70%;
+ margin: auto;
+ padding:auto;
+ background-color: rgb(255, 255, 255);
+ margin-top: 3px;
+}
+
+.image{
+    height:150px;
+    width:150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+border-radius: 999px;
+    object-fit: cover;
+    margin-left: 263px;
+}
+.contents{
+    margin-left: 16px;
+    font-family: cursive;
+    font-size: 12px;
+margin-top: 50px;
+border-radius: 10px;
+border-bottom: 5px solid rgb(190, 188, 188); ;
+    border:0.5px solid rgb(236, 236, 236);
+    border-bottom: 1px solid rgb(236, 236, 9);
+}
+.co{
+    margin-left: 20px;
+    border-bottom: 0px solid rgb(199, 199, 196);
+}
+.con{
+    margin-left: 20px;
+    
+}
+.header{
+    font-size: 16px;
+}
+.no{
+    margin-left: 330px;
+}
+.h1{
+    margin-left: 22px;
+    margin-top: 0px;
+}
+.username{
+    margin-left: 10px;
+    font-weight: 350px;
+    color:rgb(0, 0, 0);
+    font-size: 32px;
+    text-shadow: rgb(54, 180, 180);
+    
+    
+}
+.h111{
+    margin-left: 45px;
+    font-weight: 600;
+}
+.a{
+   
+        justify-content: center;
+        align-items: center;
+       text-align: center;
+       background-color: rgb(85, 84, 84);
+       margin-top: 0px;
+       color:rgb(247, 223, 130);
+       padding:0px;
+       display:flex;
+       position: sticky;
+       top:0px;
+       
+      
+     
+       height:55px;
+}
+@media (max-width: 990px) {
+    .body{
+        width:80%;
+    }
+    .contents {
+      flex-direction: column;
+    
+      
+        font-family: cursive;
+        font-size: 12px;
+width:80%;
+    margin: auto;
+    padding: auto;
+    }
+    .image{
+        margin: auto;
+        padding: auto;  
+    }
+    .co{
+        margin: auto;
+        padding: auto;   
+    }
+    .con{
+        margin: auto;
+        padding: auto;
+        
+    }
+    .header{
+        font-size: 16px;
+        margin: auto;
+    padding: auto;
+    }
+    .no{
+        margin: auto;
+    padding: auto;
+    }
+    .h1{
+        margin: auto;
+    padding: auto;
+    }
+    .username{
+        margin: auto;
+        padding: auto;
+    }
+    .h111{
+        margin: auto;
+    padding: auto;
+    }
+  }
